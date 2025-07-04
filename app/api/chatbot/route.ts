@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+// Force dynamic rendering for this API route
+export const dynamic = 'force-dynamic';
+
 // 🤖 Real Gemini API Integration for Legal Chatbot
 export async function POST(req: NextRequest) {
   try {
