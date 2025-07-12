@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Sidebar } from './sidebar';
 import { TopNavigation } from './top-navigation';
-import { Chatbot } from '@/components/chatbot/chatbot';
+import Chatbot from '../chatbot/chatbot';
 
 interface AppLayoutProps {
   children: React.ReactNode;

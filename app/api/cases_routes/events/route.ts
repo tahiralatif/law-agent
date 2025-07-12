@@ -1,1 +1,0 @@
-// Showing Upcoming events using GET method
